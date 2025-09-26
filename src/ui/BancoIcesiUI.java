@@ -35,16 +35,16 @@ public class BancoIcesiUI {
 
         int option = 0;
         do {
-            System.out.println("\nMenu Principal");
+            System.out.println("Menu Principal");
             System.out.println("-".repeat(50));
-            System.out.println("Digite alguna de las siguientes opciones");
-            System.out.println("1) Registrar cliente");
-            System.out.println("2) Asignar cuenta bancaria a cliente");
-            System.out.println("3) Depositar dinero en cuenta bancaria de un cliente");
-            System.out.println("4) Retirar dinero de una cuenta bancaria de un cliente");
-            System.out.println("5) Consultar cliente por numero de cedula");
-            System.out.println("6) Consultar el saldo total de todas las cuentas");
-            System.out.println("0) Salir del sistema");
+            System.out.println("Elige una de las Opciones ​");
+            System.out.println("1} Cliente nuevo (registro) ​​");
+            System.out.println("2} Asignar cuenta bancaria a cliente ​​");
+            System.out.println("3} Realizar un deposito​ ⬇​");
+            System.out.println("4} Realizar retiros de dinero​ ​⬆​");
+            System.out.println("5} Consultar con numero de cedula​");
+            System.out.println("6} consultar saldo total todas las cuentas ​");
+            System.out.println("0} Salir");
             option = input.nextInt();
 
             switch (option) {
@@ -67,10 +67,10 @@ public class BancoIcesiUI {
                     consultarSaldoTotal();
                     break;
                 case 0:
-                    System.out.println("\nGracias por usar nuestros servicios. Adios!");
+                    System.out.println("\nGracias por usar nuestros servicios. Adios!​");
                     break;
                 default:
-                    System.out.println("\nOpcion invalida. Intente nuevamente.");
+                    System.out.println("\nOpcion invalida. Intente nuevamente.​");
                     break;
             }
 
@@ -85,7 +85,7 @@ public class BancoIcesiUI {
      */
 
     public void registrarCliente() {
-
+        
     }
 
     public void asignarCuentaBancariaCliente() {
